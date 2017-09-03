@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>Tx.Protocol.Json</AssemblyName>
+    <RootNamespace>Tx.Protocol.Json</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.9.0</Version>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <Description>Add support of JSON protocol for Tx Envelope model.</Description>
+    <PackageLicenseUrl>https://github.com/Tuatan/Protocols/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Tuatan/Protocols/</PackageProjectUrl>
+    <Authors>Sergey Baranchenkov</Authors>
+    <Company>Sergey Baranchenkov</Company>
+    <PackageTags>Tx Protocol JSON</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Tuatan/Protocols.git</RepositoryUrl>
+    <IconUrl>http://sergeysharp.com/images/dotNET.jpg</IconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+    <PackageReference Include="Tx.Core" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
