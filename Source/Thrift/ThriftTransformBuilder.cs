@@ -40,9 +40,9 @@ namespace Tx.Protocol.Thrift
 
             public ArraySegment<byte> TransformToArraySegment(T value)
             {
-                var payload = ThriftSerializer.Serialize(value);
+                var payload = MemoryBuffer.Serialize(value);
 
-                return new ArraySegment<byte>(payload);
+                return payload;
             }
 
             public byte[] Transform(T value)
